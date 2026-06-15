@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #050505;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+h1, h2, h3 {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.tagline {
+  color: #cc0000;
+  letter-spacing: 4px;
+}
+
+.subtext {
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 24px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 2px;
+}
+
+.primary {
+  background: #cc0000;
+  color: white;
+}
+
+.ghost {
+  border: 1px solid white;
+  color: white;
+}
+
+.drop input {
+  padding: 14px;
+  width: 60%;
+  max-width: 300px;
+  border: none;
+}
+
+.drop button {
+  padding: 14px;
+  background: #cc0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border: 1px solid #222;
+}
+
+footer {
+  padding: 40px;
+  opacity: 0.4;
+}
